@@ -28,8 +28,6 @@ Let's chat! 💬
 
 ## TODO
 
-1. Fix margin covered by navbar
-1. Fix margin covered by menu dropdown
 1. Implement CMS to separate content from app build
 1. Add light mode
 1. Add Projects! AI, Web App, Desktop App
