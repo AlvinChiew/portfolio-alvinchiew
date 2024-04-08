@@ -40,7 +40,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-secondaryText mb-6 text-base sm:text-sm lg:text-xl">
+          <p className="mb-6 text-base text-secondaryText sm:text-sm lg:text-xl">
             I specialize in providing design and solutions for data, software
             and IT infrastructure to individuals, SME and MNC, encompassing both
             on-premise and cloud environments.
@@ -54,10 +54,10 @@ const HeroSection = () => {
             </Link>
 
             <Link
-              href="https://drive.google.com/file/d/1fyG4Ar-VRKXQ3LoTMS5vf7ZXk_gmW9nI/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/1oHooG_lsP4o-1ls_m-3_0ffoloy8TCKK?usp=sharing"
               className="mt-3 inline-block w-full rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 px-1 py-1 text-white hover:bg-slate-800 sm:w-fit"
             >
-              <span className="bg-backdrop block rounded-full px-5 py-2 hover:bg-slate-800">
+              <span className="block rounded-full bg-backdrop px-5 py-2 hover:bg-slate-800">
                 Résumé
               </span>
             </Link>
@@ -69,7 +69,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-5 my-6 place-self-center sm:place-self-start md:place-self-center lg:my-0"
         >
-          <div className="bg-secondaryBackdrop relative flex h-[250px] w-[250px] items-center justify-center rounded-full lg:h-[400px] lg:w-[400px]">
+          <div className="relative flex h-[250px] w-[250px] items-center justify-center rounded-full bg-secondaryBackdrop lg:h-[400px] lg:w-[400px]">
             <Image
               src="/images/portrait4.png"
               alt="hero image"
