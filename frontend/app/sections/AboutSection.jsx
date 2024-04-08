@@ -170,7 +170,7 @@ const AboutSection = () => {
             simplicity and robustness. I am excited to partner with you to turn
             exceptional ideas into reality!
           </p>
-          <div className="mt-8 flex flex-row flex-wrap justify-start lg:gap-x-2">
+          <div className="mt-8 flex flex-row flex-wrap justify-start gap-y-2 lg:gap-x-2">
             {TAB_DATA.map(({ title, id }, index) => (
               <TabButton
                 key={index}
