@@ -16,7 +16,7 @@ const affiliates = [
 
 const AffiliateSection = () => {
   return (
-    <section id="affiliates" className="py-8 lg:py-16">
+    <section id="affiliates" className="pt-24 lg:pt-28">
       <h2 className="pb-6 text-center text-3xl font-bold text-white md:pb-12">
         Professional Affiliates
       </h2>

@@ -27,7 +27,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" className="py-8 lg:py-16">
+    <section id="projects" className="pt-24 lg:pt-28">
       <h2 className="pb-6 text-center text-4xl font-bold text-white md:pb-12">
         My Projects
       </h2>

@@ -28,11 +28,11 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="bg-backdrop border-borderline fixed left-0 right-0 top-0 z-10 mx-auto border bg-opacity-100 px-12 py-4 lg:py-8">
-      <div className="container mx-auto flex flex-wrap items-center justify-between ">
+    <nav className="bg-backdrop border-borderline fixed left-0 right-0 top-0 z-10 mx-auto border bg-opacity-100 px-24 py-3 lg:py-6">
+      <div className="container mx-auto flex flex-nowrap items-center justify-between gap-8 ">
         <Link
           href={"/"}
-          className="text-2xl font-semibold text-white md:text-3xl"
+          className="whitespace-nowrap text-2xl font-semibold text-white md:text-3xl"
         >
           ALVIN CHIEW
         </Link>
@@ -63,7 +63,14 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      {navbarOpen ? (
+        <MenuOverlay
+          links={navLinks}
+          onClick={() => {
+            setNavbarOpen(false);
+          }}
+        />
+      ) : null}
     </nav>
   );
 };
