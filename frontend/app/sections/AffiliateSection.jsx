@@ -25,7 +25,7 @@ const AffiliateSection = () => {
           <Link
             href={url}
             target="_blank"
-            className="hover:animate-bounce-custom mb-2 mr-2  box-border min-w-12 rounded-md border-2 border-primary-300 px-4 py-2  text-xl hover:border-none hover:bg-slate-200 hover:font-bold hover:text-slate-900 lg:mx-2 lg:my-4 lg:border-4 lg:text-3xl"
+            className="hover:animate-bounce-custom mb-2 mr-2 box-border min-w-12 rounded-md border-2 border-primary-300 px-4 py-2  text-lg hover:border-none hover:bg-slate-200 hover:font-bold hover:text-slate-900 lg:mx-2 lg:my-4 lg:border-4 lg:text-2xl"
             key={index}
           >
             {name}
