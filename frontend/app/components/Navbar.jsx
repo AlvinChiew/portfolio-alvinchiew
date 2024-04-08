@@ -28,11 +28,11 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="bg-backdrop border-borderline fixed left-0 right-0 top-0 z-10 mx-auto border bg-opacity-100 px-24 py-3 lg:py-6">
+    <nav className="bg-backdrop border-borderline fixed left-0 right-0 top-0 z-10 mx-auto border bg-opacity-100 px-12 py-3 lg:py-6">
       <div className="container mx-auto flex flex-nowrap items-center justify-between gap-8 ">
         <Link
           href={"/"}
-          className="whitespace-nowrap text-2xl font-semibold text-white md:text-3xl"
+          className="whitespace-nowrap text-lg font-semibold text-white sm:text-xl lg:text-2xl"
         >
           ALVIN CHIEW
         </Link>
