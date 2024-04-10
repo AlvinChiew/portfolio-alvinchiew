@@ -151,7 +151,7 @@ const AboutSection = () => {
     <section className="pt-24 text-white lg:pt-28" id="about">
       <div className="items-center gap-8 px-4  md:grid md:grid-cols-2 xl:gap-16 xl:px-16">
         <Image
-          src="/images/about-image2-flipped.jpeg"
+          src="/images/about.jpeg"
           alt="about-me-image"
           width={500}
           height={500}

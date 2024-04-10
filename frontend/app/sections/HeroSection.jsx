@@ -41,9 +41,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="mb-6 text-base text-secondaryText sm:text-sm lg:text-xl">
-            I specialize in providing design and solutions for data, software
-            and IT infrastructure to individuals, SME and MNC, encompassing both
-            on-premise and cloud environments.
+            I specialize in providing design and solutions for Data, AI,
+            Software and IT infrastructure to individuals, SME and MNC,
+            encompassing both on-premise and cloud environments.
           </p>
           <div>
             <Link
@@ -71,7 +71,7 @@ const HeroSection = () => {
         >
           <div className="relative flex h-[250px] w-[250px] items-center justify-center rounded-full bg-secondaryBackdrop lg:h-[400px] lg:w-[400px]">
             <Image
-              src="/images/portrait4.png"
+              src="/images/portrait.png"
               alt="hero image"
               className="absolute inset-0 h-full w-full object-contain"
               layout="fill"
