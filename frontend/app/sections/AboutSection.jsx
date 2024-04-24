@@ -69,6 +69,10 @@ const TAB_DATA = [
         item: ["Custom Tkinter", "Windows Forms App"],
       },
       {
+        category: "Front End - Mobile",
+        item: ["Flutter"],
+      },
+      {
         category: "Language",
         item: [
           "SQL",
@@ -77,6 +81,7 @@ const TAB_DATA = [
           "Python",
           "JavaScript",
           "Typescript",
+          "Dart",
           "VBA",
           "C#",
           "Go",
@@ -93,7 +98,7 @@ const TAB_DATA = [
     content: [
       {
         category: "Cloud",
-        item: ["AWS", "Azure", "Terraform"],
+        item: ["AWS", "Terraform", "Azure", "GCP"],
       },
       { category: "Automation", item: ["Selenium", "PyTest"] },
       {
@@ -160,7 +165,7 @@ const AboutSection = () => {
           <h2 className="mb-4 text-4xl font-bold text-white">About Me</h2>
           <p className="text-base lg:text-lg">
             I am a full-time Senior Data Solution Architect with a passion for
-            full-stack development in web and desktop application. After
+            full-stack development in web, desktop and mobile application. After
             achieving a Master&apos;s in Chemical Engineering, I started my
             career in data and IT realm from the ground up. My journey has
             always been passion-driven and self-taught, leveraging numerous free
