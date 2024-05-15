@@ -73,6 +73,10 @@ const TAB_DATA = [
         item: ["Flutter"],
       },
       {
+        category: "Front End - Design",
+        item: ["Adobe XD", "Figma"],
+      },
+      {
         category: "Language",
         item: [
           "SQL",
