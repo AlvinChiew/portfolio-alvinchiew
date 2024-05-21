@@ -7,8 +7,9 @@ I crafted this website as a way to connect with more folks on the internet 🌐
 
 If any of these spark your interest, we might just hit it off!
 
-- Data Science 🤖
-- Software 🖥️
+- AI 🤖
+- Data 📈
+- Software 🖥️/📱/🌐
 - IT Infrastructure ☁️/🗄️
 - Fitness 💪🏼
 - Photography 📸
