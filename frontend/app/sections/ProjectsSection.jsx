@@ -6,7 +6,43 @@ import { motion, useInView } from "framer-motion";
 
 const projectsTag = [];
 
-const projectsData = [];
+const projectsData = [
+  {
+    title: "Quad Sparkle Admin Web Portal",
+    image:
+      "https://github.com/AlvinChiew/quadsparkle-admin-app/blob/main/assets/transactions.png?raw=true",
+    gitUrl:
+      "https://github.com/AlvinChiew/quadsparkle-admin-app/tree/main?tab=readme-ov-file#quad-sparkle-admin-web-app",
+    previewUrl: "",
+    tag: ["All", "Web"],
+  },
+  {
+    title: "Alvin Chiew Portfolio",
+    image: "/images/projects/home.png",
+    gitUrl:
+      "https://github.com/AlvinChiew/portfolio-alvinchiew?tab=readme-ov-file#alvinchiew--portfolio",
+    previewUrl: "",
+    tag: ["All", "Web"],
+  },
+  {
+    title: "Google Map WhatsApp Blaster",
+    image:
+      "https://github.com/AlvinChiew/google-map-whatsapp-blaster/blob/main/assets/sample_interface.png?raw=true",
+    gitUrl:
+      "https://github.com/AlvinChiew/google-map-whatsapp-blaster/tree/main?tab=readme-ov-file#google-map--whatsapp-blaster",
+    previewUrl: "",
+    tag: ["All", "Desktop"],
+  },
+  {
+    title: "HEIC to JPG Converter",
+    image:
+      "https://github.com/AlvinChiew/heic-jpg-converter/blob/main/assets/sample.png?raw=true",
+    gitUrl:
+      "https://github.com/AlvinChiew/heic-jpg-converter/tree/main?tab=readme-ov-file#heic-to-jpg-converter",
+    previewUrl: "",
+    tag: ["All", "Desktop"],
+  },
+];
 
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
@@ -54,18 +90,18 @@ const ProjectsSection = () => {
               transition={{ duration: 0.3, delay: index * 0.4 }}
             >
               <ProjectCard
-                key={project.id}
+                key={index}
                 title={project.title}
-                description={project.description}
+                description="" //{project.description}
                 imgUrl={project.image}
                 gitUrl={project.gitUrl}
-                previewUrl={project.previewUrl}
+                previewUrl="" //{project.previewUrl}
               />
             </motion.li>
           ))}
         </ul>
       ) : (
-        <p className=" text-secondaryText h-40 text-center text-base sm:text-sm lg:text-xl">
+        <p className=" h-40 text-center text-base text-secondaryText sm:text-sm lg:text-xl">
           👨🏻‍🍳🔥 Something fun is cooking 🍔🍣
         </p>
       )}

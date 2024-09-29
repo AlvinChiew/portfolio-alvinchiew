@@ -31,4 +31,3 @@ Let's chat! 💬
 
 1. Implement CMS to separate content from app build
 1. Add light mode
-1. Add Projects! AI, Web App, Desktop App
