@@ -30,4 +30,5 @@ Let's chat! 💬
 ## TODO
 
 1. Implement CMS to separate content from app build
+1. Add Chinese version
 1. Add light mode

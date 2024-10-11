@@ -8,6 +8,15 @@ const projectsTag = [];
 
 const projectsData = [
   {
+    title: "Logic Chess Track Game",
+    image:
+      "https://github.com/AlvinChiew/logic-chess-track-game/blob/main/assets/home_screen_both.png?raw=true",
+    gitUrl:
+      "https://github.com/AlvinChiew/logic-chess-track-game/tree/main?tab=readme-ov-file#logic-chess-track-game--%E8%BD%A8%E9%81%93%E9%80%BB%E8%BE%91%E6%A3%8B",
+    previewUrl: "",
+    tag: ["All", "Mobile"],
+  },
+  {
     title: "Quad Sparkle Admin Web Portal",
     image:
       "https://github.com/AlvinChiew/quadsparkle-admin-app/blob/main/assets/transactions.png?raw=true",
