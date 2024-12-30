@@ -8,7 +8,7 @@ const projectsTag = [];
 
 const projectsData = [
   {
-    title: "Quick Hatch Platform",
+    title: "Quick Hatch - Membership Platform",
     image:
       "https://github.com/AlvinChiew/shared-assets/blob/main/images/WIP.png?raw=true",
     gitUrl: "https://github.com/AlvinChiew/quick-hatch-platform",
