@@ -8,13 +8,21 @@ const projectsTag = [];
 
 const projectsData = [
   {
+    title: "Quick Hatch Platform",
+    image:
+      "https://github.com/AlvinChiew/shared-assets/blob/main/images/WIP.png?raw=true",
+    gitUrl: "https://github.com/AlvinChiew/quick-hatch-platform",
+    previewUrl: "",
+    tag: ["All", "Web"],
+  },
+  {
     title: "Logic Chess Track Game",
     image:
       "https://github.com/AlvinChiew/logic-chess-track-game/blob/main/assets/home_screen_both.png?raw=true",
     gitUrl:
       "https://github.com/AlvinChiew/logic-chess-track-game/tree/main?tab=readme-ov-file#logic-chess-track-game--%E8%BD%A8%E9%81%93%E9%80%BB%E8%BE%91%E6%A3%8B",
     previewUrl: "",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Mobile", "AI"],
   },
   {
     title: "Quad Sparkle Admin Web Portal",
