@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className="pt-24 lg:pt-28">
+    <section className="pt-24 lg:pt-40">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -26,7 +26,7 @@ const HeroSection = () => {
                 1000,
                 "Data Solution Architect",
                 1000,
-                "Full-Stack Developer",
+                "Application Developer",
                 1000,
                 "Sashimi Addict 🍣",
                 1000,
@@ -41,9 +41,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="mb-6 text-base text-secondaryText sm:text-sm lg:text-xl">
-            I specialize in providing design and solutions for Data, AI,
-            Software and IT infrastructure to individuals, SME and MNC,
-            encompassing both on-premise and cloud environments.
+            I strategize and deliver Proof-of-Concepts in Data, AI, Software,
+            and IT Infrastructure for individuals, SMEs, and MNCs , across both
+            on-premises and cloud environments.
           </p>
           <div>
             <Link

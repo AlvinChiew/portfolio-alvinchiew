@@ -10,9 +10,9 @@ const projectsData = [
   {
     title: "Quick Hatch - Membership Platform",
     image:
-      "https://github.com/AlvinChiew/shared-assets/blob/main/images/WIP.png?raw=true",
+      // "https://github.com/AlvinChiew/shared-assets/blob/main/images/WIP.png?raw=true",
+      "https://github.com/AlvinChiew/quick-hatch-membership-platform/blob/main/assets/membership.png?raw=true",
     gitUrl: "https://github.com/AlvinChiew/quick-hatch-platform",
-    previewUrl: "",
     tag: ["All", "Web"],
   },
   {
@@ -21,16 +21,17 @@ const projectsData = [
       "https://github.com/AlvinChiew/logic-chess-track-game/blob/main/assets/home_screen_both.png?raw=true",
     gitUrl:
       "https://github.com/AlvinChiew/logic-chess-track-game/tree/main?tab=readme-ov-file#logic-chess-track-game--%E8%BD%A8%E9%81%93%E9%80%BB%E8%BE%91%E6%A3%8B",
-    previewUrl: "",
+    previewUrl: "https://youtu.be/mnRPmoSrgTw?si=UQktpsLBkHHjzOjf",
+    downloadUrl:
+      "https://github.com/AlvinChiew/logic-chess-track-game/releases/download/v0.1.0/LogicChessTrackGame-v0.1.0-android-arm64-installer.apk",
     tag: ["All", "Mobile", "AI"],
   },
   {
-    title: "Quad Sparkle Admin Web Portal",
+    title: "Sales & Customer - Admin Portal",
     image:
       "https://github.com/AlvinChiew/quadsparkle-admin-app/blob/main/assets/transactions.png?raw=true",
     gitUrl:
       "https://github.com/AlvinChiew/quadsparkle-admin-app/tree/main?tab=readme-ov-file#quad-sparkle-admin-web-app",
-    previewUrl: "",
     tag: ["All", "Web"],
   },
   {
@@ -38,7 +39,7 @@ const projectsData = [
     image: "/images/projects/home.png",
     gitUrl:
       "https://github.com/AlvinChiew/portfolio-alvinchiew?tab=readme-ov-file#alvinchiew--portfolio",
-    previewUrl: "",
+    previewUrl: "https://www.alvinchiew.com/",
     tag: ["All", "Web"],
   },
   {
@@ -47,16 +48,16 @@ const projectsData = [
       "https://github.com/AlvinChiew/google-map-whatsapp-blaster/blob/main/assets/sample_interface.png?raw=true",
     gitUrl:
       "https://github.com/AlvinChiew/google-map-whatsapp-blaster/tree/main?tab=readme-ov-file#google-map--whatsapp-blaster",
-    previewUrl: "",
     tag: ["All", "Desktop"],
   },
   {
-    title: "HEIC to JPG Converter",
+    title: "HEIC-to-JPG Image Converter",
     image:
       "https://github.com/AlvinChiew/heic-jpg-converter/blob/main/assets/sample.png?raw=true",
     gitUrl:
       "https://github.com/AlvinChiew/heic-jpg-converter/tree/main?tab=readme-ov-file#heic-to-jpg-converter",
-    previewUrl: "",
+    downloadUrl:
+      "https://github.com/AlvinChiew/heic-jpg-converter/releases/download/v0.1.0/HeicToJpg-v0.1.0-win-x64-portable.exe",
     tag: ["All", "Desktop"],
   },
 ];
@@ -112,7 +113,8 @@ const ProjectsSection = () => {
                 description="" //{project.description}
                 imgUrl={project.image}
                 gitUrl={project.gitUrl}
-                previewUrl="" //{project.previewUrl}
+                previewUrl={project.previewUrl}
+                downloadUrl={project.downloadUrl}
               />
             </motion.li>
           ))}

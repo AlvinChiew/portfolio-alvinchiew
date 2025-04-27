@@ -13,12 +13,26 @@ const TAB_DATA = [
         item: ["Snowflake", "Metabase", "Data Vault 2.0"],
       },
       {
+        category: "Database",
+        item: [
+          "Postgres",
+          "Microsoft SQL Server",
+          "MongoDB",
+          "MySQL",
+          "Prisma",
+        ],
+      },
+      {
         category: "Pipeline",
         item: ["Matillion", "dbt", "Prefect", "Apache Kafka"],
       },
       {
-        category: "AI / ML / DL",
+        category: "Artificial intelligence",
         item: [
+          "n8n",
+          "ollama",
+          "Stable Baselines",
+          "OpenAI Gym",
           "YOLOv5",
           "Media Pipe",
           "MoveNet",
@@ -28,10 +42,12 @@ const TAB_DATA = [
           "Sktime",
           "Tensorflow",
           "PyTorch",
+          "Optuna",
+          "Onnx",
         ],
       },
       {
-        category: "BI",
+        category: "Business Intelligence",
         item: [
           "PowerBI",
           "Streamlit",
@@ -50,30 +66,26 @@ const TAB_DATA = [
     content: [
       {
         category: "Back End",
+        item: ["Node.js", "Express", "FastAPI", "GraphQL", "Strapi CMS"],
+      },
+      {
+        category: "Front End",
         item: [
-          "MongoDB",
-          "Node",
-          "Microsoft SQL Server",
-          "Postgres",
-          "MySQL",
-          "Prisma",
+          "Flutter",
+          "Streamlit",
+          "React",
+          "NextJS",
+          "Tailwindcss",
+          "Custom Tkinter",
+          "Windows Forms App",
         ],
       },
       {
-        category: "Middle End",
-        item: ["Express", "FastAPI", "GraphQL", "Strapi"],
-      },
-      { category: "Front End - Web", item: ["React", "NextJS", "Tailwindcss"] },
-      {
-        category: "Front End - Desktop",
-        item: ["Custom Tkinter", "Windows Forms App"],
+        category: "Distribution",
+        item: ["PyInstaller", "InstallForge"],
       },
       {
-        category: "Front End - Mobile",
-        item: ["Flutter"],
-      },
-      {
-        category: "Front End - Design",
+        category: "Design",
         item: ["Adobe XD", "Figma"],
       },
       {
@@ -110,10 +122,10 @@ const TAB_DATA = [
         item: ["Git", "Docker", "Kubernetes", "GitHub Action", "Scrum Agile"],
       },
       {
-        category: "Services",
-        item: ["Cloudflare", "OpenVPN", "Proxmox", "Synology DSM"],
+        category: "Network / On-Premises",
+        item: ["Cloudflare", "OpenVPN", "Proxmox", "Synology DSM", "SMB"],
       },
-      { category: "OS", item: ["Windows", "WSL", "Ubuntu"] },
+      { category: "Operating System", item: ["Windows", "WSL", "Ubuntu"] },
     ],
   },
   {
@@ -121,19 +133,28 @@ const TAB_DATA = [
     id: "me",
     content: [
       {
+        category: "Current Roles",
+        item: [
+          "Principal PoC Specialist",
+          "Senior Technical Consultant",
+          "Senior Data Architect",
+          "Full-Stack Application Developer",
+        ],
+      },
+      {
         category: "Past Roles",
         item: [
-          "Process (Simulation) Engineer",
-          "Software Engineer",
-          "BI Engineer",
-          "Applied Data Scientist",
           "Data Lake Specialist",
+          "Applied Data Scientist",
+          "Business Intelligence Engineer",
+          "Software Engineer",
+          "Process Simulation Engineer",
         ],
       },
       {
         category: "Interest",
         item: [
-          "Fitness",
+          "Bodybuilding",
           "Photography",
           "Automotive",
           "Real Estate",
@@ -167,17 +188,17 @@ const AboutSection = () => {
         />
         <div className="mt-4 flex h-full flex-col text-left md:mt-0">
           <h2 className="mb-4 text-4xl font-bold text-white">About Me</h2>
-          <p className="text-base lg:text-lg">
+          <p className="text-justify text-base lg:text-lg">
             I am a full-time Senior Data Solution Architect with a passion for
-            full-stack development in web, desktop and mobile application. After
-            achieving a Master&apos;s in Chemical Engineering, I started my
-            career in data and IT realm from the ground up. My journey has
+            full-stack development in website, desktop and mobile application.
+            After achieving a Master&apos;s in Chemical Engineering, I started
+            my career in data and IT realm from the ground up. My journey has
             always been passion-driven and self-taught, leveraging numerous free
-            online resources and extensive experience in the field. My approach
-            emphasizes practical, business aligned solutions, employing advanced
-            frameworks and data-driven technologies while prioritizing
-            simplicity and robustness. I am excited to partner with you to turn
-            exceptional ideas into reality!
+            online resources and extensive experience in the field for more than
+            a decade. My approach emphasizes practical, business aligned
+            solutions, employing advanced frameworks and data-driven
+            technologies while prioritizing simplicity and robustness. I am
+            excited to partner with you to turn exceptional ideas into reality!
           </p>
           <div className="mt-8 flex flex-row flex-wrap justify-start gap-y-2 lg:gap-x-2">
             {TAB_DATA.map(({ title, id }, index) => (

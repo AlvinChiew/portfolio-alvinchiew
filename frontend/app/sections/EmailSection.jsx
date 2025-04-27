@@ -75,10 +75,10 @@ const EmailSection = () => {
         <h5 className="my-2 text-xl font-bold text-white">
           Let&apos;s Connect
         </h5>
-        <p className="text-secondaryText mb-4 max-w-md">
+        <p className="mb-4 max-w-md text-justify text-secondaryText">
           {" "}
-          I&apos;m currently looking for captivating projects and job /
-          partnership opportunities. My inbox is always open, whether you have a
+          I&apos;m actively looking for job and partnership opportunities with
+          captivating projects. My inbox is always open, whether you have a
           question or just want to say hi. I&apos;ll get back to you soon!
         </p>
         <div className="socials flex flex-row gap-2">
@@ -113,7 +113,7 @@ const EmailSection = () => {
                 type="email"
                 id="email"
                 required
-                className="border-borderline bg-formInput placeholder-formPlaceholder block w-full rounded-lg border p-2.5 text-sm text-gray-100"
+                className="block w-full rounded-lg border border-borderline bg-formInput p-2.5 text-sm text-gray-100 placeholder-formPlaceholder"
                 placeholder="john.doe@email.com"
               />
             </div>
@@ -129,7 +129,7 @@ const EmailSection = () => {
                 type="text"
                 id="subject"
                 required
-                className="border-borderline bg-formInput placeholder-formPlaceholder block w-full rounded-lg border p-2.5 text-sm text-gray-100"
+                className="block w-full rounded-lg border border-borderline bg-formInput p-2.5 text-sm text-gray-100 placeholder-formPlaceholder"
                 placeholder="Just saying hi"
               />
             </div>
@@ -143,7 +143,7 @@ const EmailSection = () => {
               <textarea
                 name="message"
                 id="message"
-                className="border-borderline bg-formInput placeholder-formPlaceholder block w-full rounded-lg border p-2.5 text-sm text-gray-100"
+                className="block w-full rounded-lg border border-borderline bg-formInput p-2.5 text-sm text-gray-100 placeholder-formPlaceholder"
                 placeholder="Let's talk about..."
               />
             </div>
