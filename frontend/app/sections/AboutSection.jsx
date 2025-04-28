@@ -29,15 +29,17 @@ const TAB_DATA = [
       {
         category: "Artificial intelligence",
         item: [
-          "n8n",
-          "ollama",
-          "Stable Baselines",
+          "n8n (RAG, Agents, Workflow)",
+          "ollama (LLM)",
+          "LangChain",
+          "MCP Server",
+          "Stable Baselines (RL)",
           "OpenAI Gym",
           "YOLOv5",
           "Media Pipe",
           "MoveNet",
-          "Hugging Face",
-          "PyTesseract",
+          "Hugging Face (NLP)",
+          "PyTesseract (OCR)",
           "Sklearn",
           "Sktime",
           "Tensorflow",
@@ -66,7 +68,14 @@ const TAB_DATA = [
     content: [
       {
         category: "Back End",
-        item: ["Node.js", "Express", "FastAPI", "GraphQL", "Strapi CMS"],
+        item: [
+          "Supabase",
+          "Node.js",
+          "Express",
+          "FastAPI",
+          "GraphQL",
+          "Strapi CMS",
+        ],
       },
       {
         category: "Front End",
@@ -74,8 +83,8 @@ const TAB_DATA = [
           "Flutter",
           "Streamlit",
           "React",
-          "NextJS",
-          "Tailwindcss",
+          "Next.js",
+          "Tailwind CSS",
           "Custom Tkinter",
           "Windows Forms App",
         ],
@@ -86,7 +95,7 @@ const TAB_DATA = [
       },
       {
         category: "Design",
-        item: ["Adobe XD", "Figma"],
+        item: ["Figma", "Adobe XD"],
       },
       {
         category: "Language",
@@ -101,7 +110,7 @@ const TAB_DATA = [
           "VBA",
           "C#",
           "Go",
-          "bash",
+          "Bash",
           "HTML",
           "CSS",
         ],
@@ -123,9 +132,19 @@ const TAB_DATA = [
       },
       {
         category: "Network / On-Premises",
-        item: ["Cloudflare", "OpenVPN", "Proxmox", "Synology DSM", "SMB"],
+        item: [
+          "Cloudflare",
+          "OpenVPN",
+          "Proxmox",
+          "Synology DSM",
+          "SMB",
+          "SSH",
+        ],
       },
-      { category: "Operating System", item: ["Windows", "WSL", "Ubuntu"] },
+      {
+        category: "Operating System",
+        item: ["Windows", "WSL", "Ubuntu (Desktop, Server)"],
+      },
     ],
   },
   {

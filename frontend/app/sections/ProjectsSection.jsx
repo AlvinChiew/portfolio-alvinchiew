@@ -6,6 +6,7 @@ import { motion, useInView } from "framer-motion";
 
 const projectsTag = [];
 
+// TODO: Update image link to smaller image in project repo
 const projectsData = [
   {
     title: "Quick Hatch - Membership Platform",
