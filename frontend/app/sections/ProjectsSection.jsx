@@ -6,20 +6,20 @@ import { motion, useInView } from "framer-motion";
 
 const projectsTag = [];
 
-// TODO: Update image link to smaller image in project repo
 const projectsData = [
   {
     title: "Quick Hatch - Membership Platform",
     image:
-      // "https://github.com/AlvinChiew/shared-assets/blob/main/images/WIP.png?raw=true",
-      "https://github.com/AlvinChiew/quick-hatch-membership-platform/blob/main/assets/membership.png?raw=true",
+      // "https://github.com/AlvinChiew/quick-hatch-membership-platform/blob/main/assets/membership.png?raw=true",
+      "/images/projects/quick-hatch-membership-platform.png",
     gitUrl: "https://github.com/AlvinChiew/quick-hatch-platform",
     tag: ["All", "Web"],
   },
   {
     title: "Logic Chess Track Game",
     image:
-      "https://github.com/AlvinChiew/logic-chess-track-game/blob/main/assets/home_screen_both.png?raw=true",
+      // "https://github.com/AlvinChiew/logic-chess-track-game/blob/main/assets/home_screen_both.png?raw=true",
+      "/images/projects/logic-chess-track-game.png",
     gitUrl:
       "https://github.com/AlvinChiew/logic-chess-track-game/tree/main?tab=readme-ov-file#logic-chess-track-game--%E8%BD%A8%E9%81%93%E9%80%BB%E8%BE%91%E6%A3%8B",
     previewUrl: "https://youtu.be/mnRPmoSrgTw?si=UQktpsLBkHHjzOjf",
@@ -30,14 +30,15 @@ const projectsData = [
   {
     title: "Sales & Customer - Admin Portal",
     image:
-      "https://github.com/AlvinChiew/quadsparkle-admin-app/blob/main/assets/transactions.png?raw=true",
+      // "https://github.com/AlvinChiew/quadsparkle-admin-app/blob/main/assets/transactions.png?raw=true",
+      "/images/projects/sales-customer-admin-portal.png",
     gitUrl:
       "https://github.com/AlvinChiew/quadsparkle-admin-app/tree/main?tab=readme-ov-file#quad-sparkle-admin-web-app",
     tag: ["All", "Web"],
   },
   {
     title: "Alvin Chiew Portfolio",
-    image: "/images/projects/home.png",
+    image: "/images/projects/portfolio-alvinchiew.png",
     gitUrl:
       "https://github.com/AlvinChiew/portfolio-alvinchiew?tab=readme-ov-file#alvinchiew--portfolio",
     previewUrl: "https://www.alvinchiew.com/",
@@ -46,7 +47,8 @@ const projectsData = [
   {
     title: "Google Map WhatsApp Blaster",
     image:
-      "https://github.com/AlvinChiew/google-map-whatsapp-blaster/blob/main/assets/sample_interface.png?raw=true",
+      // "https://github.com/AlvinChiew/google-map-whatsapp-blaster/blob/main/assets/sample_interface.png?raw=true",
+      "/images/projects/google-map-whatsapp-blaster.png",
     gitUrl:
       "https://github.com/AlvinChiew/google-map-whatsapp-blaster/tree/main?tab=readme-ov-file#google-map--whatsapp-blaster",
     tag: ["All", "Desktop"],
@@ -54,7 +56,8 @@ const projectsData = [
   {
     title: "HEIC-to-JPG Image Converter",
     image:
-      "https://github.com/AlvinChiew/heic-jpg-converter/blob/main/assets/sample.png?raw=true",
+      // "https://github.com/AlvinChiew/heic-jpg-converter/blob/main/assets/sample.png?raw=true",
+      "/images/projects/heic-jpg-image-converter.png",
     gitUrl:
       "https://github.com/AlvinChiew/heic-jpg-converter/tree/main?tab=readme-ov-file#heic-to-jpg-converter",
     downloadUrl:
