@@ -4,9 +4,15 @@ import ProjectCard from "../components/ProjectCard";
 import ProjectTag from "../components/ProjectTag";
 import { motion, useInView } from "framer-motion";
 
-const projectsTag = [];
+const projectsTag = ["All", "AI", "Web", "Mobile", "Desktop"];
 
 const projectsData = [
+  {
+    title: "Appointment AI Agent",
+    image: "/images/projects/WIP.png",
+    gitUrl: "https://github.com/AlvinChiew/appointment-ai",
+    tag: ["All", "AI", "Web"],
+  },
   {
     title: "Quick Hatch - Membership Platform",
     image:
@@ -25,7 +31,7 @@ const projectsData = [
     previewUrl: "https://youtu.be/mnRPmoSrgTw?si=UQktpsLBkHHjzOjf",
     downloadUrl:
       "https://github.com/AlvinChiew/logic-chess-track-game/releases/download/v0.1.0/LogicChessTrackGame-v0.1.0-android-arm64-installer.apk",
-    tag: ["All", "Mobile", "AI"],
+    tag: ["All", "AI", "Mobile"],
   },
   {
     title: "Sales & Customer - Admin Portal",

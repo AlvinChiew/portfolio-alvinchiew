@@ -75,6 +75,7 @@ const TAB_DATA = [
           "FastAPI",
           "GraphQL",
           "Strapi CMS",
+          "ERPNext App",
         ],
       },
       {
@@ -208,16 +209,17 @@ const AboutSection = () => {
         <div className="mt-4 flex h-full flex-col text-left md:mt-0">
           <h2 className="mb-4 text-4xl font-bold text-white">About Me</h2>
           <p className="text-justify text-base lg:text-lg">
-            I am a full-time Senior Data Solution Architect with a passion for
-            full-stack development in website, desktop and mobile application.
-            After achieving a Master&apos;s in Chemical Engineering, I started
-            my career in data and IT realm from the ground up. My journey has
-            always been passion-driven and self-taught, leveraging numerous free
-            online resources and extensive experience in the field for more than
-            a decade. My approach emphasizes practical, business aligned
-            solutions, employing advanced frameworks and data-driven
-            technologies while prioritizing simplicity and robustness. I am
-            excited to partner with you to turn exceptional ideas into reality!
+            I am a full-time Senior AI & Data Solution Architect with a passion
+            for full-stack development in website, desktop and mobile
+            application. After achieving a Master&apos;s in Chemical
+            Engineering, I started my career in data and IT realm from the
+            ground up. My journey has always been passion-driven and
+            self-taught, leveraging numerous free online resources and extensive
+            experience in the field for more than a decade. My approach
+            emphasizes practical, business aligned solutions, employing advanced
+            frameworks and data-driven technologies while prioritizing
+            simplicity and robustness. I am excited to partner with you to turn
+            exceptional ideas into reality!
           </p>
           <div className="mt-8 flex flex-row flex-wrap justify-start gap-y-2 lg:gap-x-2">
             {TAB_DATA.map(({ title, id }, index) => (

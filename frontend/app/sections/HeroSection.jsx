@@ -42,7 +42,7 @@ const HeroSection = () => {
           </h1>
           <p className="mb-6 text-base text-secondaryText sm:text-sm lg:text-xl">
             I strategize and deliver Proof-of-Concepts in Data, AI, Software,
-            and IT Infrastructure for individuals, SMEs, and MNCs , across both
+            and IT Infrastructure for individuals, SMEs, and MNCs across both
             on-premises and cloud environments.
           </p>
           <div>
