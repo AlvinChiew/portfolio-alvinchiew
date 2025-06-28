@@ -1,17 +1,17 @@
 import Link from "next/link";
 
 const affiliates = [
-  { name: "EduNation", url: "https://www.bac.edu.my/" },
-  { name: "East 101", url: "https://www.east101.com/" },
-  { name: "Top Glove", url: "https://www.topglove.com/" },
-  { name: "Intel", url: "https://www.intel.com/" },
-  { name: "Naluri", url: "https://www.naluri.life/" },
-  { name: "INSCALE", url: "https://www.inscale.net/" },
-  { name: "Topdanmark", url: "https://www.topdanmark.com/en/" },
   {
     name: "DHL",
     url: "https://group.dhl.com/en/about-us/corporate-divisions/it-services.html",
   },
+  { name: "Topdanmark", url: "https://www.topdanmark.com/en/" },
+  { name: "INSCALE", url: "https://www.inscale.net/" },
+  { name: "Naluri", url: "https://www.naluri.life/" },
+  { name: "Intel", url: "https://www.intel.com/" },
+  { name: "Top Glove", url: "https://www.topglove.com/" },
+  { name: "East 101", url: "https://www.east101.com/" },
+  { name: "EduNation", url: "https://www.bac.edu.my/" },
 ];
 
 const AffiliateSection = () => {
