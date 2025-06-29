@@ -96,7 +96,7 @@ const ProjectsSection = () => {
         My Projects
       </h2>
       {projectsTag.length > 0 ? (
-        <div className="flex flex-row items-center justify-center gap-2 pb-6 text-white">
+        <div className="flex flex-row flex-wrap items-center justify-center gap-2 px-4 pb-6 text-white md:px-0">
           {projectsTag.map((t, index) => (
             <ProjectTag
               onClick={handleTagChange}
