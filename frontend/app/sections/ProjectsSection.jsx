@@ -8,9 +8,10 @@ const projectsTag = ["All", "AI", "Web", "Mobile", "Desktop"];
 
 const projectsData = [
   {
-    title: "Appointment AI Agent",
-    image: "/images/projects/WIP.png",
+    title: "Appointment AI - Sales Business Solution",
+    image: "/images/projects/appointment-ai.png",
     gitUrl: "https://github.com/AlvinChiew/appointment-ai",
+    previewUrl: "https://appointment-ai.alvinchiew.com/",
     tag: ["All", "AI", "Web"],
   },
   {
