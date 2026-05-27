@@ -24,14 +24,21 @@ const TAB_DATA = [
       },
       {
         category: "Pipeline",
-        item: ["Matillion", "dbt", "Prefect", "Apache Kafka"],
+        item: [
+          "Microsoft Fabric",
+          "Matillion",
+          "dbt",
+          "Prefect",
+          "Apache Kafka",
+        ],
       },
       {
         category: "Artificial intelligence",
         item: [
-          "n8n (RAG, Agents, Workflow)",
+          "n8n (RAG, AI Agents, Automation)",
           "ollama (LLM)",
           "LangChain",
+          "LangGraph",
           "MCP Server",
           "Stable Baselines (RL)",
           "OpenAI Gym",
@@ -70,9 +77,9 @@ const TAB_DATA = [
         category: "Back End",
         item: [
           "Supabase",
-          "Node.js",
-          "Express",
           "FastAPI",
+          "Express",
+          "Node.js",
           "GraphQL",
           "Strapi CMS",
           "ERPNext App",
@@ -83,8 +90,8 @@ const TAB_DATA = [
         item: [
           "Flutter",
           "Streamlit",
-          "React",
           "Next.js",
+          "React",
           "Tailwind CSS",
           "Custom Tkinter",
           "Windows Forms App",
