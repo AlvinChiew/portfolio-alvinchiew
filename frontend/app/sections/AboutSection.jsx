@@ -136,7 +136,15 @@ const TAB_DATA = [
       { category: "Automation", item: ["Selenium", "PyTest"] },
       {
         category: "CI / CD",
-        item: ["Git", "Docker", "Kubernetes", "GitHub Action", "Scrum Agile"],
+        item: [
+          "Git",
+          "Docker",
+          "Kubernetes",
+          "k3s",
+          "minikube",
+          "GitHub Action",
+          "Scrum Agile",
+        ],
       },
       {
         category: "Network / On-Premises",
