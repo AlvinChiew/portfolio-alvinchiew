@@ -139,9 +139,7 @@ const TAB_DATA = [
         item: [
           "Git",
           "Docker",
-          "Kubernetes",
-          "k3s",
-          "minikube",
+          "Kubernetes (k8s, k3s, minikube)",
           "GitHub Action",
           "Scrum Agile",
         ],
